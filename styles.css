@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+    width: 255px;
+    background-color: #eddede;
+    padding: 45px 55px;
+}
+.box{
+    width: 255px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+ .price, .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description> p{
+ 
+}
+#button{
+    width: 114px;
+    height: 51px;
+    border: none;
+    background-color: #fb0404c2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 19px;
+}
+.big-font{
+    font-size: 19px;
+}
